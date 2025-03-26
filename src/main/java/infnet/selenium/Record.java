@@ -9,7 +9,7 @@ public class Record {
     private final LocalDateTime creationDate;
     private final LocalDateTime lastUpdateDate;
     private final Status status;
-    private final int quantity; // Atributo de quantidade de itens
+    private final int quantity; 
 
     public enum Status {
         PENDING, COMPLETED, CANCELED
@@ -21,7 +21,7 @@ public class Record {
         this.creationDate = creationDate;
         this.lastUpdateDate = creationDate;
         this.status = status;
-        this.quantity = quantity; // Inicialização da quantidade
+        this.quantity = quantity; 
     }
 
     public String getId() {
